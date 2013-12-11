@@ -1,7 +1,7 @@
 var player = "A",
 	row, column, diagonal, anti_diagonal,
 	$cell = $(".cell"), 
-    $status = $(".status");
+    $status = $(".status"),
     n = 3,
     totalMoves = Math.abs(n*n);
 
